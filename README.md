@@ -1,6 +1,6 @@
 # LLCBench
 
-# A Comprehensive Review and Benchmark of Lossless Compression for Large Language Models
+# LLMs Lossless Compression Benchmark - a Comprehensive Review and Benchmark of Lossless Compression for Large Language Models
 
 ## Overview
 
