@@ -1,3 +1,9 @@
+<!-- LOGO -->
+<br />
+<h1 align="center">
+  <img src="https://github.com/Fluorite-Eyes/LLCBench/blob/main/logo.png" alt="Logo" width="821" height="350">
+</h1>
+
 # LLCBench
 
 # LLMs Lossless Compression Benchmark - a Comprehensive Review and Benchmark of Lossless Compression for Large Language Models
