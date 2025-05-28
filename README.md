@@ -334,3 +334,10 @@ zstd -df file.zstd -o file.zstd.out
 ### ZPAQ
 
 **ZPAQ** ([https://mattmahoney.net/dc/zpaq.html](https://mattmahoney.net/dc/zpaq.html)) is a free, open-source command-line archiver designed for Windows, Linux, and macOS. It supports incremental backups, meaning only files that have changed since the last backup are added, optimizing storage and backup speed. Additionally, its journaling feature ensures that previous versions remain accessible, allowing rollback to earlier states when needed.
+
+```
+# Compression
+zpaq a file.zpaq file -t16 -method 5
+# Decompression
+zpaq x file.zpaq -method 5 -t 16
+```
