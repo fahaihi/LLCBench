@@ -44,12 +44,7 @@ Performance comparison of different lossless compression tools on benchmark data
 
 
 
-**Notes.** "*" : Consideration of NN Model Size; 
-"Avg/WavgCR (bits/base)" : Average OR Weighted Average Compression Ratio; 
-"TotalCT/DT (Hours)" : Total Compression OR Decompression Time;
-"AvgCPM/DPM (GB)" : Average Compression OR Decompression Peak Memory;
-"Avg/WavgSSP (%)" : Average OR Weighted Average Storage Saving Percentage;
-"CRP (%)" : Compression Robust Performance (%).
+**Notes.** "*" : "AvgCR", "WavgCR", "AvgSSP", and "WavgSSP" denote the average and weighted average compression ratios, and the average and weighted average storage saving percentages, respectively. "CRP" represents the compression robustness performance. "TotalCT" and "TotalDT" indicate the total time taken for compression and decompression, respectively. "AvgCPM" and "AvgDPM" refer to the average peak memory usage of the CPU during compression and decompression, respectively.
 
 ## Benchmark Datasets
 
