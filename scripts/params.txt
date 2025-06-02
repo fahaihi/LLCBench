@@ -1,0 +1,7 @@
+D1="/home/user/models/git-base-fashion/model.safetensors"
+CompressorDir="/home/user/LLMC"
+ResultDir="/home/user/LLMC/results/git-base-fashion"
+ToolPath="/home/user/LLMC/tool.py"
+Threads=16
+Suffix="suffix"
+Datasets=($D1)
