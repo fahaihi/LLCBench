@@ -1,7 +1,7 @@
 <!-- LOGO -->
 <br />
 <h1 align="center">
-  <img src="https://github.com/Fluorite-Eyes/LLCBench/blob/main/logo.png" alt="Logo" width="821" height="350">
+  <img src="https://github.com/Fluorite-Eyes/LLCBench/blob/main/logo.jpeg" alt="Logo" width="821" height="350">
 </h1>
 
 # LLCBench
