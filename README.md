@@ -79,6 +79,10 @@ All experiments were performed on a Ubuntu 20.04.6 LTS server featuring 2 Intel(
 
 ## Floating-Point-Number-Driven Method
 
+```
+cd scripts/fpmd
+```
+
 ### SPDP
 
 **SPDP** ([https://userweb.cs.txstate.edu/\~burtscher/research/SPDPcompressor/](https://userweb.cs.txstate.edu/~burtscher/research/SPDPcompressor/)) (Single Precision Double Precision) is a dictionary-based lossless compression algorithm designed for both precision formats. It functions as either an HDF5 filter or an independent compression tool. The execution commands of SPSP are as follows:
@@ -114,6 +118,10 @@ python fpzip.py
 
 ## Large-Language-Models-Drive Method
 
+```
+cd scripts/llmd
+```
+
 ### ZipNN
 
 **ZipNN** ([https://github.com/zipnn/zipnn](https://github.com/zipnn/zipnn)) was proposed by Hershcovitch and Wood et al. in 2024. It is an open-source, CPU-based, lossless compressor for AI model tensors that applies type-aware optimizations. The working script and hyperparameters of ZipNN are as follows:
@@ -137,6 +145,10 @@ python fmdela.py
 -----
 
 ## Learning-based Lossless Compression Method
+
+```
+cd scripts/llc
+```
 
 ### MSDZip
 
@@ -196,6 +208,10 @@ sh ./decompress.sh file.dzip file.dzip.out com model
 -----
 
 ## Traditional Lossless Compression Method
+
+```
+cd scripts/tlc
+```
 
 ### LZMA
 
