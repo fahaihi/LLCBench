@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+title: "LLCBench: LLMs Lossless Compression Benchmark"
+message: "If you use this benchmark in your research, please cite the paper below."
+type: software
+authors:
+  - family-names: Sun
+    given-names: Hui
+    affiliation: "Nankai University & Nanyang Technological University"
+  - family-names: Chen
+    given-names: Jiashun
+    affiliation: "Xi'an Jiaotong University"
+  - family-names: Ma
+    given-names: Huidong
+    affiliation: "Nankai University"
+  - family-names: Xie
+    given-names: Haonan
+    affiliation: "Guangxi University"
+  - family-names: Zhong
+    given-names: Cheng
+    affiliation: "Guangxi University"
+  - family-names: Wang
+    given-names: Gang
+    affiliation: "Nankai University"
+  - family-names: Liu
+    given-names: Xiaoguang
+    affiliation: "Nankai University"
+  - family-names: Cai
+    given-names: Wentong
+    affiliation: "Nanyang Technological University"
+preferred-citation:
+  type: article
+  title: "The State of Lossless Compression for Large Language Models: Methods, Benchmarks, and Future Directions"
+  authors:
+    - family-names: Sun
+      given-names: Hui
+    - family-names: Chen
+      given-names: Jiashun
+    - family-names: Ma
+      given-names: Huidong
+    - family-names: Xie
+      given-names: Haonan
+    - family-names: Zhong
+      given-names: Cheng
+    - family-names: Wang
+      given-names: Gang
+    - family-names: Liu
+      given-names: Xiaoguang
+    - family-names: Cai
+      given-names: Wentong
+  journal: "Knowledge-Based Systems"
+  year: 2025
+keywords:
+  - lossless compression
+  - large language models
+  - benchmark
+license: Apache-2.0
+repository-code: "https://github.com/Fluorite-Eyes/LLCBench"

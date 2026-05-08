@@ -1,0 +1,19 @@
+name: trace_env
+# Reproduces TRACE / PAC / MSDZip. They share the same upstream architecture
+# (Performer-style transformer + arithmetic coding) and run on PyTorch 1.7
+# + CUDA 11.1 per the original TRACE README.
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - numpy=1.18.5
+  - cudatoolkit=11.1
+  - pytorch=1.7.0
+  - torchvision=0.8.1
+  - tqdm
+  - pip:
+      - performer-pytorch

@@ -1,0 +1,23 @@
+name: tlc_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pandas>=2.0
+  - numpy>=1.24
+  - matplotlib>=3.7
+  - psutil>=5.9
+  - tqdm>=4.65
+  - huggingface_hub>=0.23
+  # Native compressors available via conda-forge:
+  - bzip2
+  - zstd
+  - brotli-bin
+  - p7zip
+  - lzo
+  - libbsc
+  - pigz
+  - pip:
+      - zipnn>=0.5.0

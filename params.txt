@@ -1,0 +1,37 @@
+# LLCBench — default hyper-parameters per compressor
+#
+# Format:  <algorithm>: <key=value> [...]
+# These values match the configuration used to produce the numbers in the
+# paper "The State of Lossless Compression for Large Language Models".
+
+# === FPMD ===
+mpc:    level=1                                    # ./MPC_double <file> 1
+fpzip:  precision=auto                             # python fpzip.py
+spdp:   level=10  threads=2                        # ./spdp 10 file file.spdp 2
+
+# === LLMD ===
+zipnn:  default                                    # CPU-only, type-aware
+fmdelta: reference=base_model  delta=interval-coding
+
+# === LLC ===
+msdzip:  bs=512  ts=16  p=1   gpu=true
+deepzip: bs=8192 ts=32        gpu=true
+dzip:    bs=8192 ts=32        gpu=true
+pac:     bs=512  ts=32        gpu=true
+trace:   bs=512  ts=32        gpu=true
+
+# === TLC ===
+lzma:    "-m0=lzma  -mx9 -mmt16"
+lzma2:   "-m0=lzma2 -mx9 -mmt16"
+ppmd:    "-m0=ppmd  -mx9 -mmt16"
+lzop:    "-9"
+bzip2:   "-kzfc9"
+pbzip2:  "-9 -m2000 -p16 -c"
+lizard:  "-49 -BD"
+bsc:     "-e2"
+brotli:  default
+lzo:     "-9"
+pigz:    "-cf -9 -p16"
+snzip:   "-k -t snzip"
+zstd:    "-19"
+zpaq:    "-method 5 -t16"

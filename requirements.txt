@@ -1,0 +1,15 @@
+# Core dependencies for the LLCBench unified benchmark runner & utilities
+# (Algorithm-specific dependencies are listed under scripts/<algo>/requirements.txt)
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+seaborn>=0.12
+psutil>=5.9
+tqdm>=4.65
+huggingface_hub>=0.23
+
+# LLMD compressors (CPU-only)
+zipnn>=0.2.0
+
+# Floating-point compressor (FPZip Python bindings)
+fpzip>=1.2.0

@@ -1,0 +1,14 @@
+name: dzip_env
+# Reproduces DZip-torch (DCC 2021).
+# Pins per upstream README: Python ≤3.6.8, PyTorch 1.4, CUDA 9.0+.
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6.8
+  - pip
+  - numpy
+  - scikit-learn
+  - cudatoolkit=10.1     # CUDA 9 is no longer available; 10.1 still runs PyTorch 1.4
+  - pytorch=1.4.0

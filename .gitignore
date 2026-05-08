@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+*.egg-info/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models & compressed artefacts
+models/
+*.bin
+*.pt
+*.safetensors
+*.7z
+*.bz2
+*.bsc
+*.brotli
+*.lzma
+*.lzo
+*.lzop
+*.lizard
+*.snz
+*.zstd
+*.zpaq
+*.deepzip
+*.dzip
+*.trace
+*.pac
+*.mz
+*.znn
+*.fmd
+*.spdp
+*.mpc
+*.pigz
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Result outputs from local benchmark runs
+results/your_run/
+logs/
