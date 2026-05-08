@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="docs/logo.svg" alt="LLCBench Logo" width="180"/>
+  <img src="docs/github-wide-logo.png" alt="LLCBench — LLM Lossless Compression Benchmark" width="100%"/>
 
 # LLCBench
 
