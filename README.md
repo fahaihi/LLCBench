@@ -13,7 +13,7 @@
 </div>
 
 > 📄 *Paper:* "**The State of Lossless Compression for Large Language Models:
-> Methods, Benchmarks, and Future Directions**", Knowledge-Based Systems 2025.
+> Methods, Benchmarks, and Future Directions**".
 
 ---
 
