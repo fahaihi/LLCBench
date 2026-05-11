@@ -280,9 +280,7 @@ Implemented in [`tools/compute_metrics.py`](tools/compute_metrics.py).
   title  = {The State of Lossless Compression for Large Language Models:
             Methods, Benchmarks, and Future Directions},
   author = {Sun, Hui and Chen, Jiashun and Ma, Huidong and Xie, Haonan
-            and Zhong, Cheng and Wang, Gang and Liu, Xiaoguang and Cai, Wentong},
-  journal= {Knowledge-Based Systems},
-  year   = {2025}
+            and Zhong, Cheng and Wang, Gang and Liu, Xiaoguang and Cai, Wentong}
 }
 ```
 
